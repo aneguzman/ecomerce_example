@@ -1,0 +1,7 @@
+c:\users\intellisys-an\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+c:\users\intellisys-an\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+c:\users\intellisys-an\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUI\obj\Debug\ResolveAssemblyReference.cache
+c:\users\intellisys-an\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+c:\users\intellisys-an\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+c:\users\intellisys-an\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+c:\users\intellisys-an\documents\visual studio 2010\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
