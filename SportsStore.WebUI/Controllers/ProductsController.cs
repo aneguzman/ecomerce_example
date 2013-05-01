@@ -13,15 +13,16 @@ namespace SportsStore.WebUI.Controllers
         //
         // GET: /Products/
     	private IProductsRepository productsRepository;
-		public ProductsController()
+    	public int PageSize = 4;
+		public ProductsController(IProductsRepository productsRepository)
 		{
-			productsRepository = new FakeProductsRepository();
+			this.productsRepository = productsRepository;
 		}
-        public ActionResult List()
+        public ViewResult List(int page = 1)
         {
-			var connectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=SportStore;Integrated Security=True;Pooling=False";
-			productsRepository = new SqlProductsRepository(connectionString);
-            return View(productsRepository.Products.ToList());
+			return View(productsRepository.Products
+				.Skip((page-1) * PageSize)
+				.ToList());
         }
 
     }

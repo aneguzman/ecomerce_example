@@ -8,3 +8,8 @@ C:\proyects\ecomerce_example\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
 C:\proyects\ecomerce_example\SportsStore.Domain\obj\Debug\ResolveAssemblyReference.cache
 C:\proyects\ecomerce_example\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
 C:\proyects\ecomerce_example\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+F:\Net_Examples\ecomerce_example\SportsStore.Domain\obj\Debug\ResolveAssemblyReference.cache
+F:\Net_Examples\ecomerce_example\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+F:\Net_Examples\ecomerce_example\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+F:\Net_Examples\ecomerce_example\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+F:\Net_Examples\ecomerce_example\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
