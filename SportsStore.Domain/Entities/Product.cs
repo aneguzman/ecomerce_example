@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 
 namespace SportsStore.Domain.Entities {
-	[Table(Name="Product")]
+	[Table(Name="Products")]
 	public class Product {
 		[Column (IsPrimaryKey = true, IsDbGenerated = true, AutoSync = AutoSync.OnInsert)]
 		public int ProductID { get; set; }
