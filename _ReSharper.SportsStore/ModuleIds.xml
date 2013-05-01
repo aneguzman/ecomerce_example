@@ -2,4 +2,5 @@
   <Module PersistentId="754B748E-84E2-4CFE-8AC8-2D82B1988C07" ModuleId="SportsStore.Domain" />
   <Module PersistentId="4CBD25F1-1AB4-43BC-AD85-0B77C714A5B8" ModuleId="SportsStore.UnitTests" />
   <Module PersistentId="70890067-4E7A-47F8-9E49-86A8FB0042F7" ModuleId="SportsStore.WebUI" />
+  <Module PersistentId="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.Mvc" />
 </Modules>

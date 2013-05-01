@@ -19,6 +19,8 @@ namespace SportsStore.WebUI.Controllers
 		}
         public ActionResult List()
         {
+			var connectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=SportStore;Integrated Security=True;Pooling=False";
+			productsRepository = new SqlProductsRepository(connectionString);
             return View(productsRepository.Products.ToList());
         }
 

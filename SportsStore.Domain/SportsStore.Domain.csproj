@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,6 +45,7 @@
     <Compile Include="Abstract\IProductsRepository.cs" />
     <Compile Include="Concrete\FakeInstrumentsRepository.cs" />
     <Compile Include="Concrete\FakeProductsRepository.cs" />
+    <Compile Include="Concrete\SqlProductsRepository.cs" />
     <Compile Include="Entities\Instrument.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

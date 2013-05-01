@@ -3,3 +3,8 @@ c:\users\intellisys-an\documents\visual studio 2010\Projects\SportsStore\SportsS
 c:\users\intellisys-an\documents\visual studio 2010\Projects\SportsStore\SportsStore.Domain\obj\Debug\ResolveAssemblyReference.cache
 c:\users\intellisys-an\documents\visual studio 2010\Projects\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
 c:\users\intellisys-an\documents\visual studio 2010\Projects\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\proyects\ecomerce_example\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\proyects\ecomerce_example\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\proyects\ecomerce_example\SportsStore.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\proyects\ecomerce_example\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\proyects\ecomerce_example\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
