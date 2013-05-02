@@ -7,14 +7,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 <% foreach (var product in Model.Products)
    {%>
-   <div class="item">
-		<h3><%: product.Name %></h3>
-		<%: product.Description %>
-		<h4><%: product.Price.ToString("c") %></h4>   
-	</div>
+   <% Html.RenderPartial("ProductSummary", product); %>
 <% } %>
 
-<div id="pager">
+<div class="pager">
 	<%: Html.PageLinks(Model.PagingInfo, x=> Url.Action("List", new {page = x})) %>
 </div>
 

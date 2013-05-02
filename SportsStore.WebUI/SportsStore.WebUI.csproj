@@ -92,6 +92,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Views\Instruments\List.aspx" />
     <Content Include="Views\Products\List.aspx" />
+    <Content Include="Views\Shared\ProductSummary.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
