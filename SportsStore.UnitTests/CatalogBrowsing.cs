@@ -7,6 +7,7 @@ using SportsStore.Domain.Abstract;
 using SportsStore.Domain.Entities;
 using SportsStore.WebUI;
 using SportsStore.WebUI.Controllers;
+using SportsStore.WebUI.Models;
 
 namespace SportsStore.UnitTests {
 	[TestFixture]
@@ -22,7 +23,8 @@ namespace SportsStore.UnitTests {
 
 			var result = controller.List(2);
 
-			var displayedProducts = (IList<Product>) result.ViewData.Model;
+			var viewModel = (ProductsListViewModel) result.ViewData.Model;
+			var displayedProducts = viewModel.Products;
 			displayedProducts.Count.ShouldEqual(2);
 			displayedProducts[0].Name.ShouldEqual("P4");
 			displayedProducts[1].Name.ShouldEqual("P5");
