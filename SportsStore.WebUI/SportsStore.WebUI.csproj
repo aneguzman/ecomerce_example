@@ -76,12 +76,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\InstrumentsController.cs" />
+    <Compile Include="Controllers\NavController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="HtmlHelpers\PagingHelpers.cs" />
     <Compile Include="Infrastructure\NinjectControllerFactory.cs" />
+    <Compile Include="Models\NavLink.cs" />
     <Compile Include="Models\PagingInfo.cs" />
     <Compile Include="Models\ProductsListViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -91,6 +93,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Views\Instruments\List.aspx" />
+    <Content Include="Views\Nav\Menu.ascx" />
     <Content Include="Views\Products\List.aspx" />
     <Content Include="Views\Shared\ProductSummary.ascx" />
     <Content Include="Web.config" />

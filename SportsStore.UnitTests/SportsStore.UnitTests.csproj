@@ -75,6 +75,7 @@
   <ItemGroup>
     <Compile Include="CatalogBrowsing.cs" />
     <Compile Include="DisplayingPageLinks.cs" />
+    <Compile Include="NavigationByCategory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
